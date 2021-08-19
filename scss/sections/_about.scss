@@ -1,21 +1,43 @@
 @use'../custom'as *;
+@use'../components/mixins'as *;
 
 .about{
-    
+
     .experience{
         line-height: 0.5rem;
 
         &--head{
-            color: $gray-700;
+            color: $footer;
+            font-weight: 600;
         }
+
+        
+        @include media-breakpoint-down(sm) {
+            text-align: center;
+            img{
+                margin-bottom: 2rem;
+            }
+        }
+        
     }
 
     .education{
-        background-color: $gray-100;
+        background-color: $purple-light;
         line-height: 0.5rem;
+        color: $white;
+        
 
         &--head {
-            color: $gray-700;
+            color: $footer;
+            font-weight: 600;
+        }
+
+        @include media-breakpoint-down(sm) {
+            text-align: center;
+            img {
+                margin-bottom: 2rem;
+            }
         }
     }
+
 }
