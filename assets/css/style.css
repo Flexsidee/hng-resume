@@ -11360,7 +11360,7 @@ textarea.form-control-lg {
 }
 
 .footer {
-  padding: 1rem;
+  padding: 1rem 0 0 0;
   background-color: #033d53;
 }
 
@@ -11406,21 +11406,22 @@ textarea.form-control-lg {
   color: #fff;
 }
 .footer-sm a i {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-left: 1rem;
 }
 @media (min-width: 576px) {
   .footer-sm a i {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 
 .footer-bottom {
+  margin: 0;
   background-color: #135f7a;
   font-size: 110%;
 }
 .footer-bottom__copyright {
-  color: #6c757d;
+  color: #adb5bd;
   font-weight: 400;
 }
 
