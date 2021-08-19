@@ -1,0 +1,25 @@
+@use'../custom'as *;
+@use'../components/mixins'as *;
+
+.menu {
+    @include gradient;
+
+    .name-logo {
+        font-weight: bold;
+        text-transform: uppercase;
+
+        a {
+            color: white;
+        }
+    }
+
+    li {
+        padding: 0 0.7rem;
+
+        a {
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}
