@@ -11263,6 +11263,20 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 
+.skills {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background-color: #e9ecef;
+}
+.skills .icons i {
+  font-size: 5rem;
+  color: #033d53;
+}
+.skills .icons p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
 .about .experience {
   line-height: 0.5rem;
 }

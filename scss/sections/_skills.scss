@@ -1,0 +1,19 @@
+@use'../custom'as *;
+
+.skills{
+    margin-top: 4rem;
+    padding: 2rem 0;
+    background-color: $gray-200;
+
+    .icons{
+        i{
+            font-size: 5rem;
+            color: $footer;
+        }
+
+        p{
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+    }
+}
