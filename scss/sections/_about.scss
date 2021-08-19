@@ -3,14 +3,19 @@
 
 .about{
 
-    .experience{
-        line-height: 0.5rem;
+    .list{
+        line-height: 1rem;
 
         &--head{
             color: $footer;
             font-weight: 600;
-        }
+            margin-bottom: 3rem;
 
+            @include media-breakpoint-down(sm) {
+                text-align: left;
+            }
+        }
+        
         
         @include media-breakpoint-down(sm) {
             text-align: center;
@@ -20,24 +25,4 @@
         }
         
     }
-
-    .education{
-        background-color: $purple-light;
-        line-height: 0.5rem;
-        color: $white;
-        
-
-        &--head {
-            color: $footer;
-            font-weight: 600;
-        }
-
-        @include media-breakpoint-down(sm) {
-            text-align: center;
-            img {
-                margin-bottom: 2rem;
-            }
-        }
-    }
-
 }

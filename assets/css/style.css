@@ -11280,89 +11280,60 @@ textarea.form-control-lg {
   background-color: #fff;
 }
 
-.about .experience {
-  line-height: 0.5rem;
+.about .list {
+  line-height: 1rem;
 }
-.about .experience--head {
+.about .list--head {
   color: #033d53;
   font-weight: 600;
+  margin-bottom: 3rem;
 }
 @media (max-width: 575.98px) {
-  .about .experience {
-    text-align: center;
+  .about .list--head {
+    text-align: left;
   }
-  .about .experience img {
-    margin-bottom: 2rem;
-  }
-}
-.about .education {
-  background-color: #5bccf6;
-  line-height: 0.5rem;
-  color: #fff;
-}
-.about .education--head {
-  color: #033d53;
-  font-weight: 600;
 }
 @media (max-width: 575.98px) {
-  .about .education {
+  .about .list {
     text-align: center;
   }
-  .about .education img {
+  .about .list img {
     margin-bottom: 2rem;
   }
 }
 
-.portfolio {
-  padding: 4rem 0;
-}
-.portfolio button {
-  text-transform: capitalize;
-}
-
-.portfolio-box {
+.projects {
   position: relative;
-  width: 100%;
-  max-height: 18.5rem;
-  overflow: hidden;
-  padding-bottom: 1.2rem;
-  border-top: 0.5rem solid #5bccf6;
+  padding: 1rem 0;
 }
-.portfolio-box img {
-  width: 100%;
+.projects__content {
+  padding: 1rem;
+  margin-top: 0;
 }
-.portfolio-box .portfolio-info {
-  background-color: rgba(91, 204, 246, 0.75);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
+.projects__content p {
+  font-size: 0.8rem;
 }
-.portfolio-box .portfolio-info .caption {
-  text-align: center;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media (min-width: 992px) {
+  .projects__content p {
+    font-size: 1rem;
+  }
 }
-.portfolio-box .portfolio-info .caption h4 {
-  text-transform: uppercase;
-  display: block;
+@media (min-width: 992px) {
+  .projects__content {
+    margin-top: 5rem;
+  }
 }
-.portfolio-box:hover img {
-  transform: scale(1.5);
-  transition-duration: 1000ms;
-  transition-property: all;
+.projects__content .icon {
+  font-size: 1.5rem;
+  color: #5bccf6;
 }
-.portfolio-box:hover .portfolio-info {
-  opacity: 1;
-  visibility: visible;
-  transition-duration: 1000ms;
-  transition-property: all;
+@media (min-width: 992px) {
+  .projects__content .icon {
+    font-size: 2.5rem;
+  }
+}
+.projects__pic {
+  max-width: 100%;
 }
 
 .contact {
