@@ -1,0 +1,21 @@
+@use'../custom'as *;
+
+.about{
+    
+    .experience{
+        line-height: 0.5rem;
+
+        &--head{
+            color: $gray-700;
+        }
+    }
+
+    .education{
+        background-color: $gray-100;
+        line-height: 0.5rem;
+
+        &--head {
+            color: $gray-700;
+        }
+    }
+}
