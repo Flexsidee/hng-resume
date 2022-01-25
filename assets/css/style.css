@@ -11268,9 +11268,14 @@ textarea.form-control-lg {
   padding: 2rem 0;
   background-color: #e9ecef;
 }
-.skills .icons i {
+.skills .icons i,
+.skills .icons img {
   font-size: 5rem;
   color: #033d53;
+}
+.skills .icons img {
+  width: 80px;
+  height: 80px;
 }
 .skills .icons p {
   font-size: 1.2rem;

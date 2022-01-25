@@ -1,23 +1,29 @@
-@use'../custom'as *;
+@use "../custom" as *;
 
-.skills{
-    margin-top: 4rem;
-    padding: 2rem 0;
-    background-color: $gray-200;
+.skills {
+	margin-top: 4rem;
+	padding: 2rem 0;
+	background-color: $gray-200;
 
-    .icons{
-        i{
-            font-size: 5rem;
-            color: $footer;
-        }
+	.icons {
+		i,
+		img {
+			font-size: 5rem;
+			color: $footer;
+		}
 
-        p{
-            font-size: 1.2rem;
-            margin-top: 1rem;
-        }
+		img {
+			width: 80px;
+			height: 80px;
+		}
 
-        &:hover{
-            background-color: $white;
-        }
-    }
+		p {
+			font-size: 1.2rem;
+			margin-top: 1rem;
+		}
+
+		&:hover {
+			background-color: $white;
+		}
+	}
 }
